@@ -55,7 +55,7 @@ def update_outcome(signal_id: str):
 @api_bp.get("/candles/<symbol>")
 @require_internal_key
 def get_candles(symbol: str):
-    limit = int(request.args.get("limit", 60))
+    limit = int(request.args.get("limit", 300))
     candles = candle_store.get(symbol, limit)
     if not candles and symbol not in candle_store.get_all_symbols():
         return jsonify(error=f"Symbol {symbol!r} not found in store"), 404

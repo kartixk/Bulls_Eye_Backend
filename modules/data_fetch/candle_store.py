@@ -7,7 +7,7 @@ from core.types import Candle
 
 
 class CandleStore:
-    def __init__(self, maxlen: int = 60) -> None:
+    def __init__(self, maxlen: int = 300) -> None:
         self._store: dict[str, Deque[Candle]] = {}
         self._maxlen = maxlen
         self.last_update: float = 0.0

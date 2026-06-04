@@ -1,52 +1,302 @@
 [
-  { "exchange": "NSE", "tradingsymbol": "RELIANCE-EQ", "symboltoken": "2885", "name": "RELIANCE" },
-  { "exchange": "NSE", "tradingsymbol": "TCS-EQ", "symboltoken": "11536", "name": "TCS" },
-  { "exchange": "NSE", "tradingsymbol": "HDFCBANK-EQ", "symboltoken": "1333", "name": "HDFCBANK" },
-  { "exchange": "NSE", "tradingsymbol": "INFY-EQ", "symboltoken": "1594", "name": "INFY" },
-  { "exchange": "NSE", "tradingsymbol": "ICICIBANK-EQ", "symboltoken": "4963", "name": "ICICIBANK" },
-  { "exchange": "NSE", "tradingsymbol": "HINDUNILVR-EQ", "symboltoken": "1394", "name": "HINDUNILVR" },
-  { "exchange": "NSE", "tradingsymbol": "ITC-EQ", "symboltoken": "1660", "name": "ITC" },
-  { "exchange": "NSE", "tradingsymbol": "SBIN-EQ", "symboltoken": "3045", "name": "SBIN" },
-  { "exchange": "NSE", "tradingsymbol": "BHARTIARTL-EQ", "symboltoken": "10604", "name": "BHARTIARTL" },
-  { "exchange": "NSE", "tradingsymbol": "KOTAKBANK-EQ", "symboltoken": "1922", "name": "KOTAKBANK" },
-  { "exchange": "NSE", "tradingsymbol": "LT-EQ", "symboltoken": "11483", "name": "LT" },
-  { "exchange": "NSE", "tradingsymbol": "BAJFINANCE-EQ", "symboltoken": "317", "name": "BAJFINANCE" },
-  { "exchange": "NSE", "tradingsymbol": "AXISBANK-EQ", "symboltoken": "5900", "name": "AXISBANK" },
-  { "exchange": "NSE", "tradingsymbol": "ASIANPAINT-EQ", "symboltoken": "236", "name": "ASIANPAINT" },
-  { "exchange": "NSE", "tradingsymbol": "MARUTI-EQ", "symboltoken": "10999", "name": "MARUTI" },
-  { "exchange": "NSE", "tradingsymbol": "TITAN-EQ", "symboltoken": "3506", "name": "TITAN" },
-  { "exchange": "NSE", "tradingsymbol": "SUNPHARMA-EQ", "symboltoken": "3351", "name": "SUNPHARMA" },
-  { "exchange": "NSE", "tradingsymbol": "WIPRO-EQ", "symboltoken": "3787", "name": "WIPRO" },
-  { "exchange": "NSE", "tradingsymbol": "HCLTECH-EQ", "symboltoken": "7229", "name": "HCLTECH" },
-  { "exchange": "NSE", "tradingsymbol": "ULTRACEMCO-EQ", "symboltoken": "2952", "name": "ULTRACEMCO" },
-  { "exchange": "NSE", "tradingsymbol": "NTPC-EQ", "symboltoken": "11630", "name": "NTPC" },
-  { "exchange": "NSE", "tradingsymbol": "POWERGRID-EQ", "symboltoken": "14977", "name": "POWERGRID" },
-  { "exchange": "NSE", "tradingsymbol": "ONGC-EQ", "symboltoken": "2475", "name": "ONGC" },
-  { "exchange": "NSE", "tradingsymbol": "COALINDIA-EQ", "symboltoken": "20374", "name": "COALINDIA" },
-  { "exchange": "NSE", "tradingsymbol": "ADANIENT-EQ", "symboltoken": "25", "name": "ADANIENT" },
-  { "exchange": "NSE", "tradingsymbol": "ADANIPORTS-EQ", "symboltoken": "15083", "name": "ADANIPORTS" },
-  { "exchange": "NSE", "tradingsymbol": "TECHM-EQ", "symboltoken": "13538", "name": "TECHM" },
-  { "exchange": "NSE", "tradingsymbol": "JSWSTEEL-EQ", "symboltoken": "11723", "name": "JSWSTEEL" },
-  { "exchange": "NSE", "tradingsymbol": "TATASTEEL-EQ", "symboltoken": "3499", "name": "TATASTEEL" },
-  { "exchange": "NSE", "tradingsymbol": "GRASIM-EQ", "symboltoken": "1232", "name": "GRASIM" },
-  { "exchange": "NSE", "tradingsymbol": "HINDALCO-EQ", "symboltoken": "1363", "name": "HINDALCO" },
-  { "exchange": "NSE", "tradingsymbol": "CIPLA-EQ", "symboltoken": "694", "name": "CIPLA" },
-  { "exchange": "NSE", "tradingsymbol": "DRREDDY-EQ", "symboltoken": "881", "name": "DRREDDY" },
-  { "exchange": "NSE", "tradingsymbol": "EICHERMOT-EQ", "symboltoken": "910", "name": "EICHERMOT" },
-  { "exchange": "NSE", "tradingsymbol": "HEROMOTOCO-EQ", "symboltoken": "1348", "name": "HEROMOTOCO" },
-  { "exchange": "NSE", "tradingsymbol": "TATACONSUM-EQ", "symboltoken": "3412", "name": "TATACONSUM" },
-  { "exchange": "NSE", "tradingsymbol": "BRITANNIA-EQ", "symboltoken": "547", "name": "BRITANNIA" },
-  { "exchange": "NSE", "tradingsymbol": "DIVISLAB-EQ", "symboltoken": "10940", "name": "DIVISLAB" },
-  { "exchange": "NSE", "tradingsymbol": "BPCL-EQ", "symboltoken": "526", "name": "BPCL" },
-  { "exchange": "NSE", "tradingsymbol": "BAJAJFINSV-EQ", "symboltoken": "16675", "name": "BAJAJFINSV" },
-  { "exchange": "NSE", "tradingsymbol": "M&M-EQ", "symboltoken": "2031", "name": "M&M" },
-  { "exchange": "NSE", "tradingsymbol": "APOLLOHOSP-EQ", "symboltoken": "157", "name": "APOLLOHOSP" },
-  { "exchange": "NSE", "tradingsymbol": "NESTLEIND-EQ", "symboltoken": "17963", "name": "NESTLEIND" },
-  { "exchange": "NSE", "tradingsymbol": "SHREECEM-EQ", "symboltoken": "24948", "name": "SHREECEM" },
-  { "exchange": "NSE", "tradingsymbol": "UPL-EQ", "symboltoken": "2142", "name": "UPL" },
-  { "exchange": "NSE", "tradingsymbol": "VEDL-EQ", "symboltoken": "3103", "name": "VEDL" },
-  { "exchange": "NSE", "tradingsymbol": "INDUSINDBK-EQ", "symboltoken": "5258", "name": "INDUSINDBK" },
-  { "exchange": "NSE", "tradingsymbol": "TATAMOTORS-EQ", "symboltoken": "3456", "name": "TATAMOTORS" },
-  { "exchange": "NSE", "tradingsymbol": "BAJAJ-AUTO-EQ", "symboltoken": "16669", "name": "BAJAJ-AUTO" },
-  { "exchange": "NSE", "tradingsymbol": "PIDILITIND-EQ", "symboltoken": "2664", "name": "PIDILITIND" }
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "RELIANCE-EQ",
+    "symboltoken": "2885",
+    "name": "RELIANCE"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "TCS-EQ",
+    "symboltoken": "11536",
+    "name": "TCS"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "HDFCBANK-EQ",
+    "symboltoken": "1333",
+    "name": "HDFCBANK"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "INFY-EQ",
+    "symboltoken": "1594",
+    "name": "INFY"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "ICICIBANK-EQ",
+    "symboltoken": "4963",
+    "name": "ICICIBANK"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "HINDUNILVR-EQ",
+    "symboltoken": "1394",
+    "name": "HINDUNILVR"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "ITC-EQ",
+    "symboltoken": "1660",
+    "name": "ITC"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "SBIN-EQ",
+    "symboltoken": "3045",
+    "name": "SBIN"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "BHARTIARTL-EQ",
+    "symboltoken": "10604",
+    "name": "BHARTIARTL"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "KOTAKBANK-EQ",
+    "symboltoken": "1922",
+    "name": "KOTAKBANK"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "LT-EQ",
+    "symboltoken": "11483",
+    "name": "LT"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "BAJFINANCE-EQ",
+    "symboltoken": "317",
+    "name": "BAJFINANCE"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "AXISBANK-EQ",
+    "symboltoken": "5900",
+    "name": "AXISBANK"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "ASIANPAINT-EQ",
+    "symboltoken": "236",
+    "name": "ASIANPAINT"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "MARUTI-EQ",
+    "symboltoken": "10999",
+    "name": "MARUTI"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "TITAN-EQ",
+    "symboltoken": "3506",
+    "name": "TITAN"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "SUNPHARMA-EQ",
+    "symboltoken": "3351",
+    "name": "SUNPHARMA"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "WIPRO-EQ",
+    "symboltoken": "3787",
+    "name": "WIPRO"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "HCLTECH-EQ",
+    "symboltoken": "7229",
+    "name": "HCLTECH"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "ULTRACEMCO-EQ",
+    "symboltoken": "11532",
+    "name": "ULTRACEMCO"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "NTPC-EQ",
+    "symboltoken": "11630",
+    "name": "NTPC"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "POWERGRID-EQ",
+    "symboltoken": "14977",
+    "name": "POWERGRID"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "ONGC-EQ",
+    "symboltoken": "2475",
+    "name": "ONGC"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "COALINDIA-EQ",
+    "symboltoken": "20374",
+    "name": "COALINDIA"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "ADANIENT-EQ",
+    "symboltoken": "25",
+    "name": "ADANIENT"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "ADANIPORTS-EQ",
+    "symboltoken": "15083",
+    "name": "ADANIPORTS"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "TECHM-EQ",
+    "symboltoken": "13538",
+    "name": "TECHM"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "JSWSTEEL-EQ",
+    "symboltoken": "11723",
+    "name": "JSWSTEEL"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "TATASTEEL-EQ",
+    "symboltoken": "3499",
+    "name": "TATASTEEL"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "GRASIM-EQ",
+    "symboltoken": "1232",
+    "name": "GRASIM"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "HINDALCO-EQ",
+    "symboltoken": "1363",
+    "name": "HINDALCO"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "CIPLA-EQ",
+    "symboltoken": "694",
+    "name": "CIPLA"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "DRREDDY-EQ",
+    "symboltoken": "881",
+    "name": "DRREDDY"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "EICHERMOT-EQ",
+    "symboltoken": "910",
+    "name": "EICHERMOT"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "HEROMOTOCO-EQ",
+    "symboltoken": "1348",
+    "name": "HEROMOTOCO"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "TATACONSUM-EQ",
+    "symboltoken": "3432",
+    "name": "TATACONSUM"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "BRITANNIA-EQ",
+    "symboltoken": "547",
+    "name": "BRITANNIA"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "DIVISLAB-EQ",
+    "symboltoken": "10940",
+    "name": "DIVISLAB"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "BPCL-EQ",
+    "symboltoken": "526",
+    "name": "BPCL"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "BAJAJFINSV-EQ",
+    "symboltoken": "16675",
+    "name": "BAJAJFINSV"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "M&M-EQ",
+    "symboltoken": "2031",
+    "name": "M&M"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "APOLLOHOSP-EQ",
+    "symboltoken": "157",
+    "name": "APOLLOHOSP"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "NESTLEIND-EQ",
+    "symboltoken": "17963",
+    "name": "NESTLEIND"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "SHREECEM-EQ",
+    "symboltoken": "3103",
+    "name": "SHREECEM"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "UPL-EQ",
+    "symboltoken": "11287",
+    "name": "UPL"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "VEDL-EQ",
+    "symboltoken": "3063",
+    "name": "VEDL"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "INDUSINDBK-EQ",
+    "symboltoken": "5258",
+    "name": "INDUSINDBK"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "TMPV-EQ",
+    "symboltoken": "3456",
+    "name": "TMPV"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "BAJAJ-AUTO-EQ",
+    "symboltoken": "16669",
+    "name": "BAJAJ-AUTO"
+  },
+  {
+    "exchange": "NSE",
+    "tradingsymbol": "PIDILITIND-EQ",
+    "symboltoken": "2664",
+    "name": "PIDILITIND"
+  }
 ]

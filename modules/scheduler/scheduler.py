@@ -13,6 +13,7 @@ from core.config import settings
 from modules.data_fetch.fetch_cycle import fetch_cycle, warm_up
 from modules.signal_engine.fno_strategy import run_fno_cycle
 from modules.alerts.telegram_bot import send_morning_briefing, send_eod_summary
+from scripts.refresh_tokens import refresh_tokens
 
 log = logging.getLogger(__name__)
 _started = False
@@ -65,6 +66,26 @@ def start_scheduler(sio: SocketIO) -> None:  # noqa: ARG001 — sio kept for API
         id="eod",
     )
 
+    # Weekly token refresh — Sunday 08:00 IST, before markets open
+    sched.add_job(
+        refresh_tokens,
+        CronTrigger(day_of_week="sun", hour=8, minute=0),
+        id="token_refresh",
+        max_instances=1,
+        coalesce=True,
+    )
+
     sched.start()
     _started = True
     log.info("Scheduler started (tz=%s)", settings.TZ)
+
+    # If backend starts mid-session, immediately load candle history
+    import threading
+    from modules.data_fetch.fetch_cycle import is_market_hours
+    from datetime import datetime, timedelta, timezone
+    _IST = timezone(timedelta(hours=5, minutes=30))
+    now = datetime.now(_IST)
+    market_opened_today = now.weekday() < 5 and now.hour >= 9
+    if market_opened_today:
+        log.info("Mid-session startup — running warm_up in background")
+        threading.Thread(target=warm_up, daemon=True).start()
